@@ -10,6 +10,7 @@ const userSchema = new mongoose.Schema({
         default: "user" // Mặc định là "user" nếu không nhập
     },
     profileImage: { type: String },
+<<<<<<< HEAD
     isAdmin: { type: Boolean, default: false },
     isDoctor: { type: Boolean, default: false },
     seenNotifications: { type: Array, default: [] },
@@ -17,6 +18,10 @@ const userSchema = new mongoose.Schema({
     createAT: { type: Date, default: Date.now },
     updateAT: { type: Date, default: Date.now },
     
+=======
+    createAT: { type: Date, default: Date.now },
+    updateAT: { type: Date, default: Date.now },
+>>>>>>> 30f841b091f7a2d444928781372046aeef050d22
 });
 
 const User = mongoose.model("User", userSchema);
