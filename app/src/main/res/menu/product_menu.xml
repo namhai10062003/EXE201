@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!-- Các mục con hiển thị khi click vào menu -->
+    <item
+        android:id="@+id/menu_home"
+        android:title="Trang chủ"
+        android:orderInCategory="101"/>
+
+    <item
+        android:id="@+id/menu_flower"
+        android:title="Hoa"
+        android:orderInCategory="102"/>
+
+    <item
+        android:id="@+id/menu_price"
+        android:title="Giá cả"
+        android:orderInCategory="103"/>
+
+</menu>

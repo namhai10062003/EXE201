@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "753216421821",
+    "project_id": "labproject-6f3b4",
+    "storage_bucket": "labproject-6f3b4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753216421821:android:005e54131b7e700c371cd4",
+        "android_client_info": {
+          "package_name": "com.example.labfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753216421821-dhisf10mefeiphpo5qf74h2bhqcgco34.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.labfinal",
+            "certificate_hash": "32d97e195ad70aecd6b8c057c36d45a73ae24030"
+          }
+        },
+        {
+          "client_id": "753216421821-m3tlh2pls94g7atfcnvar68imach71cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv46uZsRBnaybHt0gDlR2UVRCTlXjiDT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753216421821-m3tlh2pls94g7atfcnvar68imach71cp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753216421821:android:71d40490254d4c38371cd4",
+        "android_client_info": {
+          "package_name": "com.example.labproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753216421821-m3tlh2pls94g7atfcnvar68imach71cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv46uZsRBnaybHt0gDlR2UVRCTlXjiDT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753216421821-m3tlh2pls94g7atfcnvar68imach71cp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

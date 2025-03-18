@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <!-- Hình nền -->
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_image"
+        android:contentDescription="Background image of lush green leaves"/>
+
+    <!-- Lớp phủ màu đen với độ mờ -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"/>
+
+    <!-- Nội dung chính -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- Tiêu đề -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chào mừng bạn!"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:paddingBottom="24dp"/>
+
+        <!-- Nút Đăng nhập -->
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Đăng nhập"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/purple"
+            android:textColor="@android:color/white"
+            android:elevation="6dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Nút Đăng ký -->
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Đăng ký"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/purple"
+            android:textColor="@android:color/white"
+            android:elevation="6dp"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+</RelativeLayout>
